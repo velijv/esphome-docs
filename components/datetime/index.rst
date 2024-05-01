@@ -57,7 +57,7 @@ Datetime Automation
 
 You can access the most recent state as a string of the datetime in :ref:`lambdas <config-lambda>` using
 ``id(datetime_id).state``.
-You can also access it as a ``ESPTime`` object by ``id(datetime_id).state_as_time``
+You can also access it as a ``ESPTime`` object by ``id(datetime_id).state_as_esptime()``
 
 .. _datetime-on_value:
 
